@@ -2,22 +2,19 @@
 
 A sequence like range generator object that supports functional style processing.
 
-## Installation
+# Installation
 
 ```
 npm install range-seq
 
 ```
 
-### Dependencies
+## Dependencies
 
 If you don't want to run the tests, no external dependencies are required.
 To run the tests you will need mocha and chai.
 
-
-End with an example of getting some data out of the system or using it for a little demo
-
-### Running the tests
+## Running the tests
 
 If you make any changes run the tests by
 
@@ -25,14 +22,14 @@ If you make any changes run the tests by
 npm run test
 ```
 
-## Usage
+# Usage
 
-### Overview
+## Overview
 
 The purpose of the module is to create a sequence of numbers in some given range. The range can be then further processed by using funcions map, filter etc.
 Note that the numbers are of the sequence will not be generated until the moment they are used.
 
-### Examples
+## Examples
 
 ```javascript
 // import the module
@@ -52,3 +49,9 @@ for(const day of range.map(x =>	`Day ${x}`)){
 	console.log(day)
 }
 ```
+
+## Docs
+
+### range(start, end, step)
+
+
