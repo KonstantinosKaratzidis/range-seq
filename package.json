@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A sequence like range object",
   "main": "lib/range.js",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:KonstantinosKaratzidis/range-seq.git"
+	},
   "scripts": {
     "test": "mocha --ui tdd"
   },
