@@ -114,5 +114,9 @@ suite("range", function(){
 
 			expect(str1).to.be.equal(str2_reversed)
 		})
+
+		test("count", function(){
+			expect(range(10, 20, 2).count(x => x % 2 == 0)).to.be.equal(5)
+		})
 	})
 })
