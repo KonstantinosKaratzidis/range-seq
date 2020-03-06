@@ -4,12 +4,16 @@
   "description": "A sequence like range object",
   "main": "lib/range.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --ui tdd"
   },
   "keywords": [
     "sequence",
     "range"
   ],
   "author": "Konstantinos Karatzidis",
-  "license": "GPL-2.0"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0"
+  }
 }
