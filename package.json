@@ -1,0 +1,15 @@
+{
+  "name": "range-seq",
+  "version": "1.0.0",
+  "description": "A sequence like range object",
+  "main": "lib/range.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sequence",
+    "range"
+  ],
+  "author": "Konstantinos Karatzidis",
+  "license": "GPL-2.0"
+}
